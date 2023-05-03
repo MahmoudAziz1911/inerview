@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import TableUsers from "./components/table";
+import ChallengeThree from "./three/three";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -48,6 +49,7 @@ function App() {
 
   return (
     <> 
+      <ChallengeThree />
       <TableUsers
         users={users}
         setUsers={setUsers}

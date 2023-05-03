@@ -13,8 +13,8 @@ const TableUsers = ({ users, setUsers, editingUser, loading, page, handleSave, h
                                     <tr className="capitalize">
                                         <th className="px-6 py-4">name</th>
                                         <th className="px-6 py-4">title</th>
-                                        <th className="px-6 py-4">status</th>
-                                        <th className="px-6 py-4">role</th>
+                                        <th className="px-6 py-4">number</th>
+                                        <th className="px-6 py-4">age</th>
                                         <th className="px-6 py-4">action</th>
                                     </tr>
                                 </thead>
@@ -110,7 +110,7 @@ const TableUsers = ({ users, setUsers, editingUser, loading, page, handleSave, h
                                                     </td>
                                                     <td className="font-medium text-left capitalize px-6 py-4">{user.dob.age}</td>
                                                     <td className="font-medium text-left capitalize px-6 py-4">
-                                                        <button className="font-semibold tracking-wide px-2 text-white bg-cyan-500 rounded-full" onClick={() => handleEditClick(user)}>
+                                                        <button className="font-semibold tracking-wide px-2 text-white bg-green-500 rounded-full" onClick={() => handleEditClick(user)}>
                                                             edit
                                                         </button>
                                                     </td>
