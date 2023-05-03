@@ -1,3 +1,4 @@
+import React from "react";
 const Messages = (props) => {
     const messagesMapper = {
       0: "Just Start And Just Do It ",
